@@ -1,0 +1,40 @@
+body {
+
+/* background: #880088; */
+}
+.mooo{
+
+  color: white ;
+  font-style: bold;
+  font-size: 50px;
+  text-align: center;
+  font: sans-serif ;
+}
+.moo{
+
+  color: blue ;
+  font-style: bold;
+  font-size: 50px;
+  text-align: center;
+  font: sans-serif ;
+}
+.B{
+  text-decoration: none;
+  font-size: 5px;
+}
+img{
+  opacity: .55;
+  width: 400px;
+  height: 300px;
+}
+
+
+}
+.mag{
+  color: white ;
+  font: georgia, serif ;
+  text-align: left ;
+  font-size: 20px
+
+
+}
