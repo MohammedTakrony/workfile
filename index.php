@@ -35,9 +35,10 @@ $wlag='en';
   </head>
   <body>
 
-    <a href="indox.php?wlag=ar"><button>عربي</button></a>
-    <a href="indox.php?wlag=en"><button>English</button></a>
+    <a href="index.php?wlag=ar"><button>عربي</button></a>
+    <a href="index.php?wlag=en"><button>English</button></a>
 		<h6>For Help Please Call: 4073428116</h6>
+        <h6>  Or contact us with: mohammed.m.takrony@gmail.com </h6>
 
     <center>
 

@@ -34,5 +34,5 @@ else {
           wattachment='$wattachment'
   where wID='$wID'";
 $result=$conn->query($sql);
-  header('Location:https://localhost/workfile/search.php')
+  header('Location:http://mohammedtakrony.epizy.com/search.php')
 ?>

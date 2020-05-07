@@ -27,6 +27,9 @@
       <textarea name="wsubject"></textarea><br>
       <input type="file" name="wattachment"><br>
       <input type="submit" name="">
+      <br>
+      <br>
+      Back to My Page <button><a href="index.php">Back</a></button>
 
     </form>
   </body>

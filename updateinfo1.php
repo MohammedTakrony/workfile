@@ -32,6 +32,6 @@ wbutt2='$wbutt2',
 wbutt3='$wbutt3',
 wbutt4='$wbutt4' where wlag ='$wlag'";
 $result = $conn->query($sql);
-header('Location:http://localhost/workfile/admin.php')
+header('Location:http://mohammedtakrony.epizy.com/admin.php')
 
  ?>

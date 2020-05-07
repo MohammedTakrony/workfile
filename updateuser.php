@@ -4,5 +4,5 @@ $status=$_GET['status'];
 $wID=$_GET['wID'];
 $sql = "UPDATE Addsuer SET status= '$status' where wID ='$wID' ";
 $result = $conn->query($sql);
-header('Location:https://localhost/workfile/shuser.php?n1')
+header('Location:http://mohammedtakrony.epizy.com/shuser.php?n1')
  ?>

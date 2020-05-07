@@ -5,35 +5,18 @@ $n2=$_GET['n2'];
 $sql="SELECT * FROM Addsuer WHERE wUsername='$n1' AND wPassword='$n2'";
 $result=$conn-> query($sql);
  while($row=$result-> fetch_assoc()) {
-$count = $result-> num_rows;
+$count = $result -> num_rows;
 }
-
-// echo $count;
-// }
-
-//
- // if ($count >0) {
- if($count > 0){
-     // header('Location:https://localhost/workfile/index.php');
-
-
-
-
+ if($count >0){
    session_start();
    $_SESSION['usernameworkfile'] = $n1 ;
-   header('Location:https://localhost/workfile/index.php');
+   header('Location:http://mohammedtakrony.epizy.com/index.php');
 
-   // header('Location:https://localhost/workfile/login1.php');
-//
 }
-//
  else {
-  // session_start();
-  // $_SESSION['usernameworkfile'] = $n1 ;
-  header('Location:https://localhost/workfile/login1.php');
 
-  // header('Location:https://localhost/workfile/index.php');
-//
+  header('Location:http://mohammedtakrony.epizy.com/login1.php');
+
 }
 
   ?>

@@ -95,6 +95,6 @@ function myFunction() {
   }
 }
 </script>
-
+ <br> <br> Back to My Page <button><a href="index.php">Back</a></button>
 </body>
 </html>
