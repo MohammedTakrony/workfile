@@ -16,6 +16,8 @@
         <option value="en">English</option>
     </select>
     <input type="submit"> -->
+
+    Back to My Page <button><a href="index.php">Back</a></button>
     </form>
   </body>
 </html>

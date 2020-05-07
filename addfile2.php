@@ -17,6 +17,6 @@ move_uploaded_file($wattachmenttmb, $upload_file.$wattachment);
 $sql= "INSERT INTO wfile (wto, wtype, wuser, wtime, wtitle, wsubject, wattachment)
  VALUES ('$wto', '$wtype', '$wuser', '$wtime', '$wtitle', '$wsubject', '$wattachment') ";
 $result=$conn->query($sql);
-header('Location:https://localhost/workfile/employeesearch2.php')
+header('Location:http://mohammedtakrony.epizy.com/employeesearch2.php')
 
  ?>
